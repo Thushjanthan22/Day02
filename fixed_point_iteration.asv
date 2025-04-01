@@ -1,0 +1,9 @@
+function[root]=fixed_point_iteration(x0,step,epes)
+n=1;
+er=1;
+xr=x0;
+
+xr_old=xr;
+
+xr=g(xr);
+
